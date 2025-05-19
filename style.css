@@ -8,7 +8,9 @@ body {
   h1, h2 {
     color: #2c3e50;
   }
-  
+  p {
+    color: rgb(138, 216, 216);
+  }
   .float-left {
     float: left;
     margin: 10px;
@@ -25,5 +27,43 @@ body {
     clear: both;
     margin-top: 30px;
     font-weight: bold;
+    color: rgb(20, 99, 73);
   }
-  
+  /* --- Táblázatok formázása --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #555;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e6f2ff;
+}
+
+tr:hover {
+  background-color: #d0e7ff;
+}
+.info-box {
+  background-color: #e0f7fa;
+  border: 2px solid #00796b;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 30px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
